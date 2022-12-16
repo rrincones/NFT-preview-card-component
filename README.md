@@ -61,7 +61,7 @@ One thing I learned is to always include a height and width attribute in image t
 
 ### Continued development
 
-For future projects, I want to keep learning how to implement better solutions that lend to the optimal user experience. I want to get better at thinking through all the technical details. 
+For future projects, I want to keep learning how to implement better solutions that lend to an optimal user experience. I also want to get better at thinking through all the technical details. 
 
 ### Useful resources
 
