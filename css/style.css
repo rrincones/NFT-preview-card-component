@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  background-color: hsl(217, 54%, 11%);
+}
+
+main {
+  width: 92%;
+  max-width: 29rem;
+  margin: auto;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  font-family: 'Outfit', sans-serif;
+  background-color: hsl(216, 50%, 16%);
+}
+
+article {
+  color: hsl(215, 51%, 70%);
+}
+
+.nft {
+  width: 100%;
+  height: auto;
+  border-radius: 1rem;
+}
+
+h1, .name {
+  color: hsl(0, 0%, 100%);
+}
+
+.price {
+  color: hsl(178, 100%, 50%);
+  font-weight: 600;
+}
+
+hr {
+  height: 2px;
+  border: none;
+  background-color: hsl(215, 32%, 27%);
+}
+
+svg {
+  margin-right: 0.4rem;
+  vertical-align: bottom;
+}
+
+.time {
+  float: right;
+}
+
+.avatar {
+  width: 10%;
+  height: auto;
+  margin-right: 1rem;
+  border: 1px solid white;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+@media (min-width: 56rem) {
+  main {
+    width: 20rem;
+  }
+}
