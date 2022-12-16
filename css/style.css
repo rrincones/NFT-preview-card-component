@@ -34,6 +34,10 @@ h1, .name {
   color: hsl(0, 0%, 100%);
 }
 
+h1 {
+  font-weight: 400;
+}
+
 .price {
   color: hsl(178, 100%, 50%);
   font-weight: 600;
