@@ -82,7 +82,7 @@ It took me a few hours of trial and error and research to also learn how to crea
 
 ### Continued development
 
-For future projects, I want to keep learning how to implement better solutions that lend to an optimal user experience. I also want to get better at thinking through all the technical details. 
+For future projects, I want to keep learning how to implement better solutions that lend to an optimal user experience. I also want to get better at thinking through all the technical details such as image optimization, SEO, and so on. But that'll come later. 
 
 ### Useful resources
 
