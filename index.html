@@ -8,22 +8,23 @@
   <meta name="author" content="Ryan Rincones">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <title>Frontend Mentor | NFT preview card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
   <main>
     <article>
-      <img class="nft" width="604" height="604" src="images/image-equilibrium.jpg" alt="transparent cube up on its corner">
+      <div class="filter">
+        <div class="filter2">
+          <img class="eye" width="48" height="48" src="images/icon-view.svg" alt="eye symbol">
+        </div>
+        <img class="nft" width="604" height="604" src="images/image-equilibrium.jpg" alt="transparent cube up on its corner">
+      </div>
       <h1>Equilibrium #3429</h1>
       <p>Our Equilibrium collection promotes balance and calm.</p>
-      <p><svg width="11" height="18" xmlns="http://www.w3.org/2000/svg"><path d="M11 10.216 5.5 18 0 10.216l5.5 3.263 5.5-3.262ZM5.5 0l5.496 9.169L5.5 12.43 0 9.17 5.5 0Z" fill="#00FFF8"/></svg><span class="price">0.041 ETH</span><span class="time"><svg width="17" height="17" xmlns="http://www.w3.org/2000/svg"><path d="M8.305 2.007a6.667 6.667 0 1 0 0 13.334 6.667 6.667 0 0 0 0-13.334Zm2.667 7.334H8.305a.667.667 0 0 1-.667-.667V6.007a.667.667 0 0 1 1.334 0v2h2a.667.667 0 0 1 0 1.334Z" fill="#8BACD9"/></svg>3 days left</span></p>
+      <p>
+        <img class="both" width="11" height="18" src="images/icon-ethereum.svg" alt="ethereum symbol"><span class="price">0.041 ETH</span><span class="time"><img class="both" width="17" height="17" src="images/icon-clock.svg" alt="clock symbol">63 days left</span>
+      </p>
       <hr>
-      <p class="name2"><img class="avatar" width="132" height="132" src="images/image-avatar.png" alt="Jules Wyvern avatar">Creation of <span class="name">Jules Wyvern</span></p>
+      <p><img class="avatar" width="132" height="132" src="images/image-avatar.png" alt="Jules Wyvern avatar">Creation of <span class="name">Jules Wyvern</span></p>
     </article>
   </main>
 </body>
