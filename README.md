@@ -58,6 +58,26 @@ One thing I learned is to always include a height and width attribute in image t
   vertical-align: middle;
 }
 ```
+It took me a few hours of trial and error and research to also learn how to create the active state required for the main image. I ended up making a :hover pseudo class that, although applied to one element, triggers CSS changes to another once it's in the active state. You can see this below as the second ruleset applies to the .filter2 element, changing its opacity from 0 to 1 and the cursor to a pointer. 
+
+```css
+.filter2 {
+  position: absolute;
+  opacity: 0;
+  background: hsl(178, 100%, 50%, 30%);
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+  transition-property: opacity;
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
+}
+
+.filter:hover .filter2 {
+  opacity: 1;
+  cursor: pointer;
+}
+```
 
 ### Continued development
 
