@@ -94,4 +94,4 @@ For future projects, I want to keep learning how to implement better solutions t
 
 ## Acknowledgments
 
-Special thanks to Lixandro Beato, whose code I peeked at to figure out what I didn't know. 
+Special thanks to [@Lixandro Beato](https://www.frontendmentor.io/profile/lixandro96), whose code I peeked at to figure out what I didn't know. 
