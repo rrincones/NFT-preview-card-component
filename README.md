@@ -14,6 +14,7 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -90,3 +91,7 @@ For future projects, I want to keep learning how to implement better solutions t
 ## Author
 
 - Frontend Mentor - [@rrincones](https://www.frontendmentor.io/profile/rrincones)
+
+## Acknowledgments
+
+Special thanks to Lixandro Beato, whose code I peeked at to figure out what I didn't know. 
